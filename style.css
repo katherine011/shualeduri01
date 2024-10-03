@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding-inline: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFFF2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Hanken Grotesk";
+}
+
+.conteiner {
+    width: 736px;
+    height: 512px;
+    border-radius: 32px;
+    box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card {
+    background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+    width: 368px;
+    height: 512px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 38px;
+}
+
+.head1 {
+    color: rgba(202, 201, 255, 1);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.head2 {
+    background-image: url("./image/Oval\ \(8\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.head3 {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px;
+    margin-bottom: 2px;
+}
+
+.head4 {
+    color: #adace4;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.great {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -4px;
+    margin-bottom: -15px;
+    margin-right: 5px;
+}
+
+.text {
+    color: #CAC9FF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+.card2 {
+    width: 368px;
+    height: 512px;
+    background-color: white;
+    padding: 38px;
+    border-radius: 32px;
+}
+
+.head5 {
+    color: #303B59;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 177px;
+    padding-top: 7px;
+}
+
+.card2, .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.box {
+    width: 288px;
+    height: 273px;
+}
+
+.box0 {
+    width: 288px;
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px; 
+    gap: 30px;
+    padding: 17px;
+}
+
+.box1 {
+    background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
+}
+
+.box2 {
+    background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
+}
+
+.box3 {
+    background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F);
+}
+
+.box4 {
+    background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6);
+}
+
+.reaction {
+    color: #FF5555;
+}
+
+.memory {
+    color: #FFB21E;
+}
+
+.verbal {
+    color: #00BB8F;
+}
+
+.visual {
+    color: #1125D6;
+}
+
+.space {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 9px;
+}
+
+.cont1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: #303B59;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    gap: 7px;
+}
+
+.class2 {
+    color: #303b5996;
+    opacity: 0,5;
+}
+
+.continue {
+    width: 288px;
+    height: 56px;
+    background-color: #303B59;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 128px;
+    margin-bottom: 8px;
+}
+
+.last {
+    color: #FFFFFF;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
